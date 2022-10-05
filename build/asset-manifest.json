@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6dc8f6c4.css",
+    "main.js": "/static/js/main.79875491.js",
+    "static/media/0seriesOverview.jpg": "/static/media/0seriesOverview.8b00c2fdde71d5b61a9c.jpg",
+    "static/media/wfBlueBirdFrontTrees.jpg": "/static/media/wfBlueBirdFrontTrees.947c7d744e21f3abba67.jpg",
+    "static/media/hawaiiAndyChopping.jpg": "/static/media/hawaiiAndyChopping.74b3a6736048b35273f0.jpg",
+    "static/media/hawaiiClark&AndyOpening.jpg": "/static/media/hawaiiClark&AndyOpening.b82784cf311806f3e8c5.jpg",
+    "static/media/hawaiiStokingGrillAndy&E.jpg": "/static/media/hawaiiStokingGrillAndy&E.d373df156123e92b5ddc.jpg",
+    "static/media/flatheadLakeFrozen.jpg": "/static/media/flatheadLakeFrozen.0b3280d13873ee97e433.jpg",
+    "static/media/australiaGreenTidepools.jpg": "/static/media/australiaGreenTidepools.eb88390ecadfbb64ad5f.jpg",
+    "static/media/yellowstoneSmokeSunRiver.jpg": "/static/media/yellowstoneSmokeSunRiver.c6418e9dac261a02d778.jpg",
+    "static/media/westRiverRocksPines.jpg": "/static/media/westRiverRocksPines.51b808174195b543364a.jpg",
+    "static/media/BrownCountrySaddlingJ&E.jpg": "/static/media/BrownCountrySaddlingJ&E.8de0eaf178731ebbb58e.jpg",
+    "static/media/NzMtnsFields.jpg": "/static/media/NzMtnsFields.92f0b8c159685641bfdc.jpg",
+    "static/media/badlandsSunset.jpg": "/static/media/badlandsSunset.53a244ceed2d0e48ce28.jpg",
+    "static/media/sydneyAqua.jpg": "/static/media/sydneyAqua.b1e7fe1551f2c679b634.jpg",
+    "static/media/4split.jpg": "/static/media/4split.c0acea0bf04bb7db4f03.jpg",
+    "static/media/1stars.jpg": "/static/media/1stars.499bf04ec236fe45137d.jpg",
+    "static/media/hawaiiReceptionDinner.jpg": "/static/media/hawaiiReceptionDinner.997759e4755f5b3c54aa.jpg",
+    "static/media/5break.jpg": "/static/media/5break.26babea9a8e6d3083438.jpg",
+    "static/media/milwaukeeSailShip.jpg": "/static/media/milwaukeeSailShip.be65eaa2ce55a0d183b9.jpg",
+    "static/media/3blood.jpg": "/static/media/3blood.f839c018e6975b1810d7.jpg",
+    "static/media/receptionPreview.jpg": "/static/media/receptionPreview.d0072b09e68939a64917.jpg",
+    "static/media/wildPreview.jpg": "/static/media/wildPreview.8f89f89b203ef9ef5122.jpg",
+    "static/media/flyingPiecesPreview.jpg": "/static/media/flyingPiecesPreview.87c7634f469648cb59d9.jpg",
+    "index.html": "/index.html",
+    "main.6dc8f6c4.css.map": "/static/css/main.6dc8f6c4.css.map",
+    "main.79875491.js.map": "/static/js/main.79875491.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6dc8f6c4.css",
+    "static/js/main.79875491.js"
+  ]
+}
