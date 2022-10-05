@@ -1,0 +1,27 @@
+/*** Stylesheet projectPage.css ***/
+/* Project: Photography Portfolio for KW Studios 
+   Descript: Showcase of fine art and commercial photography
+   Created: Kendra Wainscott  2022
+
+   Style Sheet for ProjectPage Page
+   Organized by major section, then alphabetically
+*/
+/************* UNIVERSAL *********************************/
+:root {
+  --black: rgb(0, 0, 0);
+  --white: rgb(255, 255, 255);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+}
+header {
+  color: var(--white);
+  background-color: var(--black);
+}
+ul {
+  color: var(--white);
+}
