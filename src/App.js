@@ -3,7 +3,6 @@
    Descript: Showcase of fine art and commercial photography
    Created: Kendra Wainscott  2022
 */
-import "./App.css";
 import {Routes, Route} from "react-router-dom";
 import {HomePage} from "./pages/HomePage";
 import {ProjectPage} from "./pages/ProjectPage";

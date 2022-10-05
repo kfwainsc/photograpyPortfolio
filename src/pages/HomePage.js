@@ -4,27 +4,26 @@
    Created: Kendra Wainscott  2022
 */
 import React from "react";
+import {homePageStyles as styles} from "./pageStyles/stylesHomePage.js";
 import {NavLink} from "react-router-dom";
 import {Hero} from "../components/Hero/Hero";
+import {projectOverviews} from "../images/projectOverviews.js";
 import {ProjectPreview} from "../components/ProjectPreview/ProjectPreview";
 export function HomePage() {
   return (
     <div>
-      <Hero />
-      <header>
+      <header style={styles.header}>
         <h1>Kendra Wainscott Studios</h1>
         <h2>Fine Art & Commercial Photography</h2>
+        <Hero />
       </header>
-      <NavLink to="flyingPieces">
-        <ProjectPreview title="flyingPieces" />
-      </NavLink>
-      <br />
-      <NavLink to="gatherings">
-        <ProjectPreview title="gatherings" />
-      </NavLink>
-      <br />
-      <NavLink to="wild">Wild</NavLink>
-      <br />
+      <div style={styles.overviewsContainer}>
+        {projectOverviews.map((project) => (
+          <NavLink to={project.path} key={project.title}>
+            <ProjectPreview overview={project} />
+          </NavLink>
+        ))}
+      </div>
     </div>
   );
 }

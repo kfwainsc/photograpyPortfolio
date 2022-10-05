@@ -52,7 +52,7 @@ export const imgList = {
     {
       name: "Reception Dinner",
       src: require("./gatherings/hawaiiReceptionDinner.jpg"),
-      alt: ". Location: Hawaii, USA",
+      alt: "At a reception lit by tiki troches, two people are caught candidly smiling. A beach at twilight is visible in the background. Location: Hawaii, USA",
     },
     {
       name: "Stoking the Grill",

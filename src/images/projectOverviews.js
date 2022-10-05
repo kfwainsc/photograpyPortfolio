@@ -4,21 +4,29 @@
    Created: Kendra Wainscott  2022
 */
 import {imgList} from "./imgList.js";
-export const projectOverviews = {
-  flyingPieces: {
+export const projectOverviews = [
+  {
+    path: "flyingPieces",
     title: "Flying Pieces",
-    img: imgList.flyingPieces[1],
+    imgSrc: require("./flyingPieces/flyingPiecesPreview.jpg"),
+    alt: "Stars will pour themselves over you. Chunks of rock, gas, glass and other brilliant things will get caught on you, all over.",
     caption: "caption",
     description: "Art things",
   },
-  gatherings: {
+  {
+    path: "gatherings",
     title: "Gatherings",
-    img: require("./gatherings/hawaiiReceptionDinner.jpg"),
+    imgSrc: require("./gatherings/receptionPreview.jpg"),
+    alt: "At a reception lit by tiki troches, two people are caught candidly smiling. A beach at twilight is visible in the background. Location: Hawaii, USA",
+    caption: "caption",
     description: "Stuff",
   },
-  wild: {
+  {
+    path: "wild",
     title: "Wild",
-    img: require("./wild/badlandsSunset.jpg"),
+    imgSrc: require("./wild/wildPreview.jpg"),
+    alt: "Foreground is a triangle of upright rock with a pink sunset background. Location: Badlands National Park, USA",
+    caption: "caption",
     description: "wild",
   },
-};
+];

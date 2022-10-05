@@ -5,17 +5,15 @@
 */
 import PropTypes from "prop-types";
 import {projectPreviewStyles as styles} from "./stylesProjectPreview.js";
-import {projectOverviews} from "../../images/projectOverviews.js";
 
-export function ProjectPreview({title}) {
-  const info = projectOverviews[title];
+export function ProjectPreview({overview}) {
   return (
     <figure style={styles.figure}>
-      <img src={info.img.src} alt={info.img.alt} style={styles.img} />
-      <figcaption>{info.caption}</figcaption>
+      <img src={overview.imgSrc} alt={overview.alt} style={styles.img} />
+      <figcaption>{overview.caption}</figcaption>
     </figure>
   );
 }
 ProjectPreview.propTypes = {
-  title: PropTypes.string.isRequired,
+  overview: PropTypes.object.isRequired,
 };
