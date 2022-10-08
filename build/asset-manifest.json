@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6dc8f6c4.css",
-    "main.js": "/static/js/main.79875491.js",
+    "main.css": "/static/css/main.ecc8a042.css",
+    "main.js": "/static/js/main.ff36675e.js",
     "static/media/0seriesOverview.jpg": "/static/media/0seriesOverview.8b00c2fdde71d5b61a9c.jpg",
     "static/media/wfBlueBirdFrontTrees.jpg": "/static/media/wfBlueBirdFrontTrees.947c7d744e21f3abba67.jpg",
     "static/media/hawaiiAndyChopping.jpg": "/static/media/hawaiiAndyChopping.74b3a6736048b35273f0.jpg",
@@ -24,12 +24,13 @@
     "static/media/receptionPreview.jpg": "/static/media/receptionPreview.d0072b09e68939a64917.jpg",
     "static/media/wildPreview.jpg": "/static/media/wildPreview.8f89f89b203ef9ef5122.jpg",
     "static/media/flyingPiecesPreview.jpg": "/static/media/flyingPiecesPreview.87c7634f469648cb59d9.jpg",
+    "static/media/tempLogo.jpg": "/static/media/tempLogo.effb59670b94d05781c7.jpg",
     "index.html": "/index.html",
-    "main.6dc8f6c4.css.map": "/static/css/main.6dc8f6c4.css.map",
-    "main.79875491.js.map": "/static/js/main.79875491.js.map"
+    "main.ecc8a042.css.map": "/static/css/main.ecc8a042.css.map",
+    "main.ff36675e.js.map": "/static/js/main.ff36675e.js.map"
   },
   "entrypoints": [
-    "static/css/main.6dc8f6c4.css",
-    "static/js/main.79875491.js"
+    "static/css/main.ecc8a042.css",
+    "static/js/main.ff36675e.js"
   ]
 }
