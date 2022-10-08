@@ -5,18 +5,31 @@
 */
 import React from "react";
 import {useParams} from "react-router-dom";
-import "./pageStyles/projectPage.css";
-import {imgList} from "../images/imgList.js";
+//components
+import {ArtistStatement} from "../components/ArtistStatement/ArtistStatement";
+import {CarouselCompo as Carousel} from "../components/Carousel/Carousel.js";
 import {PhotoGrid} from "../components/PhotoGrid/PhotoGrid";
+//resources
+import {imgList} from "../contentLists/imgList.js";
+import {statementList} from "../contentLists/statementList";
+//styles
+import {projectPageStyles as styles} from "./pageStyles/stylesProjectPage";
 
 export function ProjectPage() {
   const {title} = useParams();
-  console.log(title);
+  //const titleImg = imgList[title][0];
+  const statement = statementList[title];
   return (
-    <header>
-      <h1>PROJECT PAGE</h1>
-      <h2>Subtitle </h2>
-      <PhotoGrid imgList={imgList[title]} />
-    </header>
+    <div>
+      <header style={styles.header}>
+        <h1 style={styles.h1}>{title}</h1>
+      </header>
+
+      {statement.length && (
+        <ArtistStatement placement="bottom" btnTxt="read more" statement={statement} />
+      )}
+      <Carousel project={imgList[title]} />
+    </div>
   );
 }
+//      <img src={titleImg.src} display="flex" width="100%" alt={titleImg.alt} />

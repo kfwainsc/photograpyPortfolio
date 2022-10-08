@@ -4,12 +4,14 @@
    Created: Kendra Wainscott  2022
 */
 import {Routes, Route} from "react-router-dom";
-import {HomePage} from "./pages/HomePage";
-import {ProjectPage} from "./pages/ProjectPage";
-
+import {NavBar} from "../components/NavBar/NavBar.js";
+import {HomePage} from "../pages/HomePage";
+import {ProjectPage} from "../pages/ProjectPage";
+import {appStyles as styles} from "./stylesApp.js";
 function App() {
   return (
-    <div className="app">
+    <div style={styles.app}>
+      <NavBar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/:title" element={<ProjectPage />} />

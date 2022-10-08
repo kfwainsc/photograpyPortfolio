@@ -16,8 +16,21 @@
   padding: 0;
 }
 html {
-  font-size: 10px;
+  font-size: 12px;
+}
+@media only screen and (max-width: 330px) {
+  html {
+    font-size: 8px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 10px;
+  }
 }
 body {
   font-family: sans-serif, monospace;
+}
+.nav-link {
+  text-decoration: none;
 }

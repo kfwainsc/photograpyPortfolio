@@ -7,8 +7,9 @@ import React from "react";
 import {homePageStyles as styles} from "./pageStyles/stylesHomePage.js";
 import {NavLink} from "react-router-dom";
 import {Hero} from "../components/Hero/Hero";
-import {projectOverviews} from "../images/projectOverviews.js";
+import {projectOverviews} from "../contentLists/projectOverviews.js";
 import {ProjectPreview} from "../components/ProjectPreview/ProjectPreview";
+//import {imgList} from "../images/imgList.js";
 export function HomePage() {
   return (
     <div>
@@ -19,7 +20,7 @@ export function HomePage() {
       </header>
       <div style={styles.overviewsContainer}>
         {projectOverviews.map((project) => (
-          <NavLink to={project.path} key={project.title}>
+          <NavLink to={project.path} key={project.title} className={"nav-link"}>
             <ProjectPreview overview={project} />
           </NavLink>
         ))}
